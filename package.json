@@ -1,6 +1,6 @@
 {
   "name": "snpk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "snportkill",
   "main": "index.js",
   "bin": {

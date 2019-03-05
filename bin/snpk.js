@@ -66,6 +66,7 @@ async function killPort (port, command) {
   for (let i = 0; i < list.length; ++i) {
     let item = list[i];
     await shell('kill -9 ' + item.PID);
-    console.log(`\x1b[32m${'killed ' + item.PID + ' with ' + item.COMMAND}\x1b[0m`);
+    console.log(`\x1b[32m${`killed ${item.PID}[${item.COMMAND}]`}\x1b[0m`);
   }
+
 }
