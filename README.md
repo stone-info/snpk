@@ -16,5 +16,5 @@ snpk -c node -p 8000
     "PID": "58391"
   }
 ]
-killed 58391 with node
+killed 58391[node]
 ```
